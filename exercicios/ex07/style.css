@@ -1,0 +1,88 @@
+body
+{
+    background-image: url(Floresta.jpg);
+    background-size: cover;
+}
+header, footer
+{
+    padding: 2px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: rgb(44, 216, 44);
+    margin-bottom: 10px;
+}
+article h1
+{
+    font-family: 'Times New Roman';
+    font-size: 18pt;
+    text-align: justify;
+    padding: 2px;
+    line-height: 0.1;
+}
+article h2
+{
+    font-family: 'Times New Roman';
+    font-size: 14pt;
+    text-align: justify;
+    padding: 5px;
+    border: 1.5px solid black; 
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+main
+{
+    padding: 2px;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: lightgreen;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+p
+{
+    font-family: 'Times New Roman';
+    font-size: 13pt;
+    text-align: justify;
+    line-height: 1.2;
+}
+img
+{
+    width: 100%;
+}
+a
+{
+    color: blue;
+    text-decoration: underline;
+}
+h3{
+    font-family: 'Times New Roman';
+    font-size: 12pt;
+}
+nav a
+{
+    font-family: 'Times New Roman';
+    font-size: 11pt;
+    color: blue;
+    text-decoration:none;
+}
+nav li{
+    list-style: none;
+    list-style-type: square;
+}
+@media (max-width: 500px)
+{
+    main, header, footer
+    {
+        width: 100%;
+        padding: 0;
+    }
+}
+@media (max-width: 900px)
+{
+    main, header, footer
+    {
+        width: 100%;
+        padding: 0;
+    }
+}

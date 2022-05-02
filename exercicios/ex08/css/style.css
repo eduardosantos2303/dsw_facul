@@ -1,0 +1,47 @@
+body
+{
+    width: 1366px;
+    margin: auto;
+}
+.h_1
+{
+    background-color: #252323;
+}
+.part_sup
+{
+    width: 980px;
+    margin: auto;
+    height: 60px;
+}
+.logo{
+    width: 75%;
+    height: 60px;
+    float: left;
+}
+.logo img
+{
+    margin-top: 17px;
+}
+.logos_contatos
+{
+    width: 25%;
+    float: right;
+    height: 60px;
+}
+.logos_contatos ul li
+{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.h_2
+{
+    background-color: #ffffff;
+}
+.part_inf{
+    width: 980px;
+    margin: auto;
+    height: 84px;
+    border-bottom: 5px solid #efefef
+
+}
