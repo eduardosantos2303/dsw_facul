@@ -4,12 +4,13 @@
 }
 body
 {
-    width: 1366px;
+    width: 100%;
     margin: auto;
 }
 .h_1
 {
     background-color: #252323;
+    width: 100%;
 }
 .part_sup
 {
@@ -72,6 +73,8 @@ body
 }
 .menu nav ul li a
 {
+    font-family:"Myriad Pro", Myriad, "Liberation Sans", "Nimbus Sans L", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 14pt;
     text-decoration: none;
     text-transform: uppercase;
     color: #8b8b8b;
@@ -93,17 +96,18 @@ body
     float: right;
 
 }
-input
+.box input
 {
+    margin-top: 17px;
+    width: 188px;
+    height: 33px;
     float: right;
-    margin-top: 25px;
-    padding-bottom: 15px;
+    background-image: url('../imagens/icon_busca.png');  
+    background-repeat: no-repeat;  
+    background-position: 95%;
 }
-::placeholder{
-    text-align: left;
+::placeholder
+{
     color: #b2b2b2;
-    position: relative;
-    top: 8px;
-    left: 15px;
+    padding:  15px;
 }
-
