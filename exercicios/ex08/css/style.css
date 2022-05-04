@@ -7,6 +7,11 @@ body
     width: 100%;
     margin: auto;
 }
+main
+{
+    width: 100%;
+    margin: auto;
+}
 .h_1
 {
     background-color: #252323;
@@ -111,3 +116,30 @@ body
     color: #b2b2b2;
     padding:  15px;
 }
+.banner img
+{
+    width: 100%;
+}
+section
+{
+    background-color: #ffffff;
+}
+.cont_1
+{
+    height: 100%;
+    width: 980px;
+    margin: auto;
+}
+.text img
+{
+    margin-top: 30px;
+    width: 584px;
+    position: relative;
+    left: 160px;
+}
+.text p{
+    color: #9a9a9a;
+    text-align: center;
+    margin-top: 20px;
+}
+
