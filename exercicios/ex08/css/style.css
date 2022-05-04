@@ -1,3 +1,7 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
 body
 {
     width: 1366px;
@@ -13,7 +17,8 @@ body
     margin: auto;
     height: 60px;
 }
-.logo{
+.logo
+{
     width: 75%;
     height: 60px;
     float: left;
@@ -28,6 +33,12 @@ body
     float: right;
     height: 60px;
 }
+.logos_contatos a img
+{
+    margin-top: 17px;
+    margin-left: 19px;
+    float: right;
+}
 .logos_contatos ul li
 {
     list-style: none;
@@ -37,11 +48,62 @@ body
 .h_2
 {
     background-color: #ffffff;
+    border-bottom: 5px solid #efefef
 }
 .part_inf
 {
     width: 980px;
     margin: auto;
-    height: 84px;
-    border-bottom: 5px solid #efefef
+    height: 80px;
+
 }
+.menu
+{
+    width: 75%;
+    height: 80px;
+    float: left;
+}
+.menu nav ul li
+{
+    display: inline-block;
+    height: 46px;
+    padding-top: 34px;
+
+}
+.menu nav ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8b8b8b;
+    margin-right: 30px;
+}
+.menu nav ul li a:hover
+{
+    color: #00bac6;
+
+}
+.menu nav ul li:hover
+{
+    border-bottom: 4px solid #00bac6;
+}
+.box
+{
+    width: 25%;
+    height: 80px;
+    float: right;
+
+}
+input
+{
+    float: right;
+    margin-top: 25px;
+    padding-bottom: 15px;
+}
+::placeholder{
+    text-align: left;
+    color: #b2b2b2;
+    position: relative;
+    top: 8px;
+    left: 15px;
+}
+
