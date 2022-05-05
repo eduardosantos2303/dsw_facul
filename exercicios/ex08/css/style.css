@@ -120,15 +120,12 @@ main
 {
     width: 100%;
 }
-section
-{
-    background-color: #ffffff;
-}
-.cont_1
+.content
 {
     height: 100%;
     width: 980px;
     margin: auto;
+    position: relative;
 }
 .text img
 {
@@ -137,9 +134,89 @@ section
     position: relative;
     left: 160px;
 }
-.text p{
+.text p
+{
     color: #9a9a9a;
     text-align: center;
     margin-top: 20px;
 }
-
+.imgs{
+    padding-top: 70px;
+}
+.imgs ul
+{
+    display: flex;
+}
+.imgs ul li
+{
+    list-style: none;
+}
+.img_pc
+{
+    padding-left: 50px;
+}
+.img_pc img
+{
+    margin-left: 85px;
+}
+.img_pc h2
+{
+    text-align: center;
+    font-size: 30px;
+}
+.img_pc p
+{
+    text-align: center;
+}
+.img_pincel
+{
+    padding-left: 50px;
+}
+.img_pincel img
+{
+    margin-left: 85px;
+    margin-top: 40px;
+}
+.img_pincel h2
+{
+    text-align: center;
+    font-size: 30px;
+}
+.img_pincel p
+{
+    text-align: center;
+}
+.img_photo
+{
+    padding-left: 50px;
+}
+.img_photo img
+{
+    margin-left: 70px;
+}
+.img_photo h2
+{
+    text-align: center;
+    font-size: 30px;
+}
+.img_photo p
+{
+    text-align: center;
+}
+.section_2
+{
+    background-image: url(../imagens/fundo_tringular.png);
+}
+.content_2
+{
+    width: 980px;
+    margin: 0 auto;
+}
+.menu_imgs
+{
+    padding-top: 100px;
+}
+.menu_imgs ul li
+{
+    display: inline-block;
+}
