@@ -280,6 +280,7 @@ span{
 }
 .content_footer ul li{
     padding-top: 30px;
+    padding-bottom: 30px;
     list-style: none;
     width: 245px;
 }
